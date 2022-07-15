@@ -129,7 +129,7 @@ Lets get our first table set up, using one of the presets they provide.
 #### Testing it all together
 
 Once you've completed these steps, open `src/routes/index.svelte` and replace it with the following block:
-```html
+```svelte
 <script>
 	// Import our new supabase client
     import {supabase} from "$lib/db";
