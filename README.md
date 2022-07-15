@@ -131,7 +131,7 @@ Lets get our first table set up, using one of the presets they provide.
 Once you've completed these steps, open `src/routes/index.svelte` and replace it with the following block:
 ```svelte
 <script>
-	// Import our new supabase client
+    // Import our new supabase client
     import {supabase} from "$lib/db";
 </script>
 <!-- Attempt to select all user profiles -->
